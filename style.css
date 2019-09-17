@@ -1,0 +1,64 @@
+body {
+	background: #FFFFFF !important;
+	font-size: 20px !important;
+	font-weight: 500 !important;
+}
+
+#appIcon{
+	padding-top: 100px;
+	width: 100px;
+}
+
+#teaserImg{
+	height: 100vh;
+	object-fit: scale-down;
+	padding-top: 0px;
+	right: -15px;
+	position: absolute;
+	vertical-align: middle;
+}
+
+#caption{
+	padding-top: 100px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 40px;
+	color: #0A71F2;
+	letter-spacing: 0;
+}
+
+#icons{
+	padding-top: 40px;
+}
+
+#downloadBtn{
+	margin-top: 40px;
+	background: #0A71F2;
+	border-radius: 7px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 24px;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	padding: 15px 10px 15px 10px;
+	cursor: pointer;
+	text-align: center;
+	opacity: 0.9;
+	transition: opacity 0.3s;
+	animation-timing-function: cubic-bezier(1.0)
+}
+#downloadBtn:hover{
+	opacity: 1.0;
+}
+
+#versionTxt{
+	margin-top: 30px;
+	font-size: 14px;
+	font-family: 'Source Sans Pro', sans-serif;
+	padding: 0px !important;
+	color: rgb(99, 99, 99);
+}
+
+.btn{
+	border: 0px solid transparent !important; 
+	min-width: 200px;
+}
+
